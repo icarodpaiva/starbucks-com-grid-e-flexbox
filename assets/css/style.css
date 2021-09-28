@@ -8,5 +8,69 @@ font-family: 'Oswald', sans-serif; */
 }
 
 body {
-  font-family: 'Open Sans', sans-serif
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+/* Header */
+header .line {
+  height: 8px;
+  background-color: var(--main-color);
+}
+
+.header--area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.header-left img {
+  height: 64px;
+  width: 64px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header--search input {
+  font-size: 16px;
+  padding: 8px 40px 8px 15px;
+  border: 1px solid #999;
+  outline: 0;
+  width: 100%;
+  max-width: 250px;
+}
+
+.header--search form {
+  display: flex;
+}
+
+.header--search button {
+  margin-left: -30px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.header--search button img {
+  width: 16px;
+  height: 16px;
+}
+
+.header--menu {
+  margin-left: 50px;
+}
+
+.header--menu img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
 }
